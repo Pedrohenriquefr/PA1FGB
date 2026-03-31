@@ -1,0 +1,267 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMbCXsASBWhQgkit8uvsO0z",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Pedrohenriquefr/PA1FGB/blob/main/aula_10_3_31_3\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VtuOoPcreFj4",
+        "outputId": "0d0db6e4-9ba5-4bfa-8c3e-25c3c165720f"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o comprimento:3\n",
+            "Digite a altura:4\n",
+            "O total da área é: (área) metros quadrados\n"
+          ]
+        }
+      ],
+      "source": [
+        "lado1 = float(input(\"Digite o comprimento:\"))\n",
+        "lado2 = float(input(\"Digite a altura:\"))\n",
+        "#Processamento\n",
+        "\n",
+        "area = lado1 * lado2\n",
+        "\n",
+        "#saida\n",
+        "\n",
+        "print (\"O total da área é: (área) metros quadrados\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Escrever um programa que calcula o dobro de um numero"
+      ],
+      "metadata": {
+        "id": "K4UrT6WehOaq"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero1 = float (input (\"digite um número\"))\n",
+        "\n",
+        "#Processamento\n",
+        "\n",
+        "dobro1 = numero1 * 2\n",
+        "\n",
+        "#Saida\n",
+        "print (f\"O dobro de {numero1} é {dobro1}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3TQX-mifhr9r",
+        "outputId": "cf3cfaf6-bcc2-4c68-d000-0d11e072c643"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um número67\n",
+            "O dobro de 67.0 é 134.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Fazer um progama que o usuario irá entrar com 04 notas, vamos calcular a média e mostrar o usuário"
+      ],
+      "metadata": {
+        "id": "pQtdP-LDktLb"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nota1 =  float(input(\"Digite o número:\"))\n",
+        "nota2 =  float(input(\"Digite o número:\"))\n",
+        "nota3 =  float(input(\"Digite o número:\"))\n",
+        "nota4 =  float(input(\"Digite o número:\"))\n",
+        "\n",
+        "#Processamento\n",
+        "Média = (nota1 + nota2 + nota3 + nota4) / 4\n",
+        "\n",
+        "#Saida\n",
+        "\n",
+        "print (f\"A média é {Média}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MR3eIqabln0i",
+        "outputId": "d8604b25-95dc-41e4-ea59-6dd9008cf423"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o número:9\n",
+            "Digite o número:0\n",
+            "Digite o número:6\n",
+            "Digite o número:8\n",
+            "A média é 5.75\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Fazer um cadastro simples de usuário .\n",
+        "Objetivo: Usar string (str)\n",
+        "Lógica\n",
+        "Entrada:nome e idade Processamento: armazenar Saida: Exibir uma mensagem (olá (nome), Você tem x anos d idade"
+      ],
+      "metadata": {
+        "id": "_gyobr9onwUG"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nome = input((\"Digite seu nome:\"))\n",
+        "idade = int(input(\"Digite sua idade:\"))\n",
+        "\n",
+        "#Saida\n",
+        "print(f\"Olá! {nome} sua idade é {idade}\")"
+      ],
+      "metadata": {
+        "id": "KYZbiD1joTO6",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "b5f4b430-7ec3-4a4e-c1ae-69e5ff30cdd6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite seu nome:Luisinho do morro\n",
+            "Digite sua idade:67\n",
+            "Olá! Luisinho do morro sua idade é 67\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero1 = int(input(\"Digite um número:\"))\n",
+        "numero2 = int(input(\"Digite um número:\"))\n",
+        "#Processamento e saída\n",
+        "if numero1 > numero2:\n",
+        "    print(f\"{numero1} é maior que {numero2}\")\n",
+        "elif numero1 == numero2:\n",
+        "    print(f\"O número{numero1} é igual ao número{numero2}\")\n",
+        "else:\n",
+        "    print(f\"{numero1} é menor que {numero2}.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YiL6C4-3pcne",
+        "outputId": "51cd631f-911e-4da7-b2c4-6b9924517c4c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um número:1\n",
+            "Digite um número:0\n",
+            "1 é maior que 0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Escrever um programa que o usuário digita o nome e a idade:\n",
+        "#Identificar se o usuário é criança, adolescente ou adulto.\n",
+        "# <12 = Criança\n",
+        "# <18 = Adolescente\n",
+        "# >18 = Adulto\n",
+        "#Saída (Você é...)\n",
+        "\n",
+        "idade = int(input(\"Digite sua idade:\"))\n",
+        "nome = input(\"Digite seu nome:\")\n",
+        "\n",
+        "if idade < 12:\n",
+        "    print(f\"Olá {nome}, Você é Criança.\")\n",
+        "if idade < 18:\n",
+        "    print(f\"Olá {nome}, Você é adolescente.\")\n",
+        "if idade <=59:\n",
+        "   print(f\"Olá {nome}, Você é adulto.\")\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kZHhZ2SCrZ5C",
+        "outputId": "2fa0a74e-a249-4030-e2c1-fe92f3c9dec4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite sua idade:18\n",
+            "Digite seu nome:´p\n",
+            "Olá ´p, Você é adulto.\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
